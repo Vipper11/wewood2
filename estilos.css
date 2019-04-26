@@ -46,12 +46,11 @@ section#catalogo{
 section#contacto{
 	width: 1024px;
 	height: 615px;
-	background-color: yellowgreen;
 }
 footer{
 	width: 1024px;
 	height: 50px;
-	background-color: purple;
+	background-color: #461C31;
 }
 nav img{
 	float: left; /*float alineacion*/
@@ -202,3 +201,97 @@ div.boxcatalogo img{
 	margin-left: 63px;
 	margin-right: 63px;
 }
+div.boxcontacto {
+	width: 512px;
+	height: 360px;
+	float: left;
+	margin-top: 64px;
+	
+}
+div.cajitascontancto input {
+	width: 324px;
+	height: 40px;
+	border: solid 1px #B14E80;
+	border-radius: 8px;
+	margin-left: 87px;
+	background-color: transparent;
+	margin-bottom: 15px;
+	padding-left: 15px;
+	font-size: 16px;
+}
+div#comentario.cajitascontancto textarea {
+	width: 324px;
+	height: 129px;
+	border: solid 1px #B14E80;
+	border-radius: 8px;
+	margin-left: 87px;
+	background-color: transparent;
+	resize: none; /*quitar modificador de tamaño de comentario*/
+	padding-left: 15px;
+	padding-top: 10px;
+	font-size: 16px;
+}
+div.boxcontacto a{
+	width: 87px;
+	height: 30px;
+	display: block; /*comvertir boton a caja*/
+	margin-left: 324px;
+	border: solid 1px #B14E80;
+	border-radius: 8px;
+	padding-top: 8px;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	margin-top: 5px;
+	background-color: #B14E80;
+	cursor: pointer;/*Cambiar cursos a manita para enviar*/
+}
+footer h2 {
+	float: left;
+	margin-left: 15px;
+	margin-top: 15px;
+	color: white;
+	font-size: 16px;
+}
+footer ul {
+	float: right;
+	margin-right: 15px;
+	margin-top: 20px;
+	list-style: none;
+}
+footer ul li{
+	float: left;
+	margin-left: 15px;
+}
+div#face{
+	width: 7px;
+	height: 13px;
+	background-image: url("exportacion/facebook.svg");
+}
+div#face:hover{
+	background-image: url("exportacion/facebook_rosa.svg");
+}
+div#tw{
+	background-image: url("exportacion/twitter.svg");
+	width: 13px;
+	height: 11px;
+}
+div#tw:hover{
+	background-image: url("exportacion/twitter_rosa.svg");
+}
+div#insta{
+	background-image: url("exportacion/instagram.svg");
+	width: 13px;
+	height: 13px;
+}
+div#insta:hover{
+	background-image: url("exportacion/instagram_rosa.svg");
+}
+
+
+
+::-webkit-input-pkaceholder{color: #b14e80;} /* moderador Safari & Chrome*/
+::-moz-input-pkaceholder{color: #b14e80;} /* moderador Mozila Firefox*/
+::-ms-input-pkaceholder{color: #b14e80;} /* moderador Microsoft IE o Edge*/
+::-o-input-pkaceholder{color: #b14e80;} /* moderador Opera */
+input-pkaceholder{color: #b14e80;} /* moderador Universal */
